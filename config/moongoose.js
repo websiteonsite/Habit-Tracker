@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const DB = 'mongodb+srv://whiteWolff:praduman@cluster0.an8uy3k.mongodb.net/habittTracker?retryWrites=true&w=majority'
 
 
-// These set of line can be written in async await fashion, but I have followed the documentation. 
+// These set of line can be written in async await fashion, but I have followed the documentation.
 mongoose.connect(DB).then(()=>{
     console.log('connection successful');
 }).catch((err) => console.log("no connection " + err));
