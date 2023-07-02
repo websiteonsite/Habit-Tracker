@@ -1,34 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800&display=swap');
 /* The below css is for header of the page, the header of the page is going to remain constant, only
- the body is going to chagne.
+the body is going to chagne.
   */
 
-  /* Styling for navBar, I have made nav Bar as flex, and all the element inside this navBar is going to 
+/* Styling for navBar, I have made nav Bar as flex, and all the element inside this navBar is going to
   in row wise */
 .navBar{
-    background-color: rgba(23, 195, 106, 0.868);
+    background-color: rgba(27, 182, 199, 0.868);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
     /* position: relative; */
 }
 /* These styling are for anchor tag in navBar */
 .nameOfApp a{
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: bolder;
     text-decoration: none;
+    margin: 50px 30px;
+    padding: 10px;
 }
 
 /* for the name of users */
 .nameOfUser{
     font-size: 30px;
-
+    color: #0d48b6;
+    font-weight: bolder;
 }
 
 /* Thesse styling are for logOut, button which is present on the navBar */
 .logOut a{
     font-size: 30px;
+    font-weight: bolder;
     margin-right: 10px;
     text-decoration: none;
-    color: black;
+    color: #AA4A44;
 }
 
 .noUser ul{
@@ -39,10 +46,16 @@
 
 .noUser li{
     list-style: none;
-    font-size: 25px;
-    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 20px;
+    
 }
-
 .noUser li a{
-    text-decoration: none;
+    color: #055f67;
+    font-weight: 700;
+}
+.noUser li a:hover{
+    text-decoration: underline;
+    color: #e7e8ec;
 }

@@ -40,7 +40,7 @@ module.exports.createHabit = async function(req, res){
     }catch(err){
         console.log("Error in habit_controller** " + err);
     }
-} 
+}
 
 
 // Status update for the habit, and the particular date also.

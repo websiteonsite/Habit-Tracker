@@ -12,4 +12,4 @@ router.get('/favorite' , habitController.toggleFavourite);
 router.get('/remove' , habitController.removeHabit);
 
 
-module.exports = router; 
+module.exports = router;

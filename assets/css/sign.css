@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/sign.jpg) ;
+    background-image: url(../images/habit_trackers.jpg) ;
 }
 /* The concept for the desigin the sing-in/sign-up/forget_password page was of giveing the disply as flex */
 /* Then arranged it as accordingly. For achiving the purpose I have made one outerForm, and inside it one inner form 
@@ -8,10 +8,11 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 37%;
-    background-color: #5b8d76;
-    height: 50vh;
+    border-radius: 15px;
+    background-image: url("../images/lovepik-office-creative-still-life-picture_501728629.jpg");
+    height: 70vh;
     width: 30%;
 }
 
@@ -33,7 +34,19 @@ body{
 }
 /* Heading , which go as Welcome */
 .heading{
-    margin-top: 30px;
+    margin-top: 20px;
+}
+.input-form,.heading h1{
+    color: #0d48b6;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+.input-form quotes{
+    color: #aa0813;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
 }
 .input-form .formClass{
     position: relative;
@@ -42,6 +55,7 @@ body{
 }
 .formClass{
     margin-top: -20px;
+
 }
 /* .input-form div:nth-child(2n){
     margin-left: 15vh;
@@ -49,30 +63,45 @@ body{
 
 /* Some basic styling to the buttons, and input sections */
 .formClass input{
-    width: 130%;
-    height: 40%;
+    width: 110%;
+    height: 35%;
     border-radius: 30px;
-    margin: 4px;
+    /* align-items: center; */
+    margin: 5px;
     padding-left: 20px ;
-    padding-right: 10px; 
+    padding-right: 10px;
     border: none;
-    box-shadow: 0px 0px 0px 2px #ccc;
+    box-shadow: 0px 0px 0px 2px #544e4e;
 }
 .submitButtons{
-    margin-right: 10px;
+    /* margin-right: 10px;*/
+    margin-top: 20px; 
     height: 5vh;
-    
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
 }
 .submitButtons button{
     width: 70px;
     height: 5vh;
     margin: 5px;
+    color: #e1e6bd;
+    background-color: #1dac4a;
+    border: no;
+    border-radius: 10px;
 }
 .submitButtons button:hover{
     cursor: pointer;
 }
 .forgetPassword{
-    margin : 10px;
+    margin : 20px;
+    color: #2140bb;
+    font-weight: 300;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:medium;
+}
+.forgetPassword:hover{
+    text-decoration: underline;
 }
 .submitButtonsForget{
     margin-left: 70px;

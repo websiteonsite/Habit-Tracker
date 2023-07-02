@@ -6,7 +6,7 @@
     <body>
         <!-- Just a randome quotes -->
         <div class="qutos">
-            <h1>“Successful habit makes people Successful”</h1>
+            <h1>"Success is the sum of small efforts - repeated day in and day out"</h1>
             <p>Start with a new habit today !</p>
         </div>
         <!-- For the input which allow the user to enter habits -->
@@ -19,21 +19,21 @@
         <!-- These will tell the user that , which symbol indicate what -->
         <div id="symbol">
             <i class="fas fa-check-circle"></i>
-           -Done&emsp;&emsp;
-           <i class="fas fa-times-circle"></i>
-           -Not Done&emsp;&emsp;
-           <i class="fas fa-minus-circle"></i>
-           -Unmarked&emsp;&emsp;
-           <button id="weekly-view__btn-2" onclick="showDailyData()">Daily</button>
-           <button id="weekly-view__btn" onclick="showWeeklyData()">weekly</button>
+            -Done&emsp;&emsp;
+            <i class="fas fa-times-circle"></i>
+            -Not Done&emsp;&emsp;
+            <i class="fas fa-minus-circle"></i>
+            -Unmarked&emsp;&emsp;
+            <button id="weekly-view__btn-2" onclick="showDailyData()">Daily</button>
+            <button id="weekly-view__btn" onclick="showWeeklyData()">weekly</button>
         </div>
 
         <!-- From here habit and its contains start, it basically fetches data form habit, which is passed 
         in the home_controller. -->
-         <div class="habit-display_width">
+            <div class="habit-display_width">
             <ul class="habit-list">
                 <li class="with-weekly">
-                   
+                
                     <% for(let habit of habits) {%>
                         <div class="habit-list-item">
 
@@ -77,7 +77,7 @@
                                         <i class="fa-solid fa-star"></i>
                                     <%} else {%>
                                         <i class="fa-regular fa-star"></i>
-                                    <%}%>      
+                                    <%}%>
                                     
                                 </a>
                                 <!-- For remving the habits -->
@@ -86,14 +86,14 @@
                                 </a>
                             </div>
     
-                       </div>
-                       <!-- this is the list of dates -->
-                       <div class="weekly__container">
+                    </div>
+                    <!-- this is the list of dates -->
+                    <div class="weekly__container">
                             <% for(let d of weeklyDates){ %>
                                 <div class="weekly__date">
                                     <p> <%= d%> </p>
 
-                                    <% 
+                                    <%
                                         let find;
                                         let stat;
                                         habit.dates.find((item) => {
@@ -116,7 +116,7 @@
                                         <% } %>
                                     </a>
                                 </div>
-                            <%}%>    
+                            <%}%>
                         
                         </div>
 
@@ -125,13 +125,10 @@
 
                 </li>
             </ul>
-         </div>
+        </div>
     
     </body>
 <%}%>
 
 
-
-
-
- <script src="/js/script.js"></script>
+<script src="/js/script.js"></script>

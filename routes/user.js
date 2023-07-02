@@ -11,7 +11,7 @@ router.post('/create', userController.create); // router for creating user
 router.post('/create-session', passport.authenticate(
     'local',
     {failureRedirect: '/users/sign-in'},
-), userController.createSession); 
+), userController.createSession);
 // used for deleting the user
 router.get('/sign-out' , userController.destroySession);
 router.use('/habit' , require('./habit')); // it is for habits, Habit is also part of user
