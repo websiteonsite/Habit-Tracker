@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 // Here I have provided the mongoDb to the cloud, so that anyone can acces the form anywhere.
-const DB = 'mongodb+srv://whiteWolff:praduman@cluster0.an8uy3k.mongodb.net/habittTracker?retryWrites=true&w=majority'
 
+const DB = 'mongodb+srv://skillsproject111:IUVigdgob9v255un@cluster0.yiyhsn7.mongodb.net/'
 
 // These set of line can be written in async await fashion, but I have followed the documentation.
 mongoose.connect(DB).then(()=>{
