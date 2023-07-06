@@ -1,29 +1,16 @@
-Hoisted Link : (https://hbt-tkr.onrender.com)
+# CSV_Upload
+CSV_Upload is a user-friendly web application designed for uploading and parsing CSV files. Developed using Node.js and Express, it offers a straightforward interface to facilitate seamless management of CSV data.
 
-
-### Description
-
-A full stack app which help you to Create , Read, Update, Delete your habit. It is user specific app, which mean a particlar user can track his/her habit, and mark it as
-done , or not done. The project is built using a tech stack consisting of Node.js for the server-side scripting, Express for handling HTTP requests and routing, MongoDB 
-for storing and managing the data, and EJS for rendering the views and templates
-
-
-- Git Repository link: https://github.com/websiteonsite/Habit-Tracker
+- Git Repository link: https://github.com/websiteonsite/CSV-Upload-IN-Nodejs
 - Video link: 
 - Hosted URL: https://csv-upload-d92y.onrender.com/
-
-
-### Tech Stack
-
-Node , Express, Mongodb , EJS , javaScript , html, css
-
 
 ## Installation
 To install CSV_Upload, please follow these steps:
 
 Clone this repository using the following command:
 ```
-$ git clone (https://github.com/websiteonsite/Habit-Tracker)
+$ git clone (https://github.com/websiteonsite/CSV-Upload-IN-Nodejs)
 ```
 Install the required dependencies using the following command:
 ```
