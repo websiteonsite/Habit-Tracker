@@ -30,7 +30,9 @@ After reaching the project directory you have to run the following the command.
   User view of homePage - signUp - SingIn
   
   # HomePage
- 
+   [https://ibb.co/YdTyYrG]
+   <img width="937" alt="Screenshot 2023-07-13 192334" src="https://github.com/websiteonsite/Habit-Tracker/assets/130152473/46d39920-9d17-451a-8a5c-d51995b6e2dd">
+
   
   # Sign-Up
  
