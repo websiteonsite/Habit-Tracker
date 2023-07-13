@@ -29,20 +29,21 @@ After reaching the project directory you have to run the following the command.
 
   User view of homePage - signUp - SingIn
   
-  # HomePage
+  # HomePage -  Sign-In
 
-  
-
+  <img width="953" alt="Screenshot 2023-07-13 194009" src="https://github.com/websiteonsite/Habit-Tracker/assets/130152473/2b03c329-49ee-4967-8628-bf00d25f5258">
   
   # Sign-Up
- 
 
-  # Sign-In
-  
-  
+ <img width="949" alt="Screenshot 2023-07-13 194624" src="https://github.com/websiteonsite/Habit-Tracker/assets/130152473/32b92064-03a7-4c11-b831-5fffd0a547da">
+
   # Daily View
   
+  <img width="938" alt="Screenshot 2023-07-13 194455" src="https://github.com/websiteonsite/Habit-Tracker/assets/130152473/6d8080fe-9e54-44fe-ab1b-b21a2b6ae901">
+
+  # Weekly View
   
+  <img width="936" alt="Screenshot 2023-07-13 194535" src="https://github.com/websiteonsite/Habit-Tracker/assets/130152473/5dda7a20-de00-4a14-bdf4-4d714e28dc6d">
 
 ### Folder Structure
 
